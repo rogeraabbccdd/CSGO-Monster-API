@@ -50,7 +50,9 @@ native bool Monster_Tele(char [] name, float origin[3]);
 /**
  * Called when a monster break.
  *
- * @param client     Player  index.
+ * @param monster     Monster entity index.
+ * @param client     Client index.
+ * @param weapon     Weapon.
  * @return          No return
  */
 forward Action Monster_OnBreak(int monster, int client, const char [] weapon);
