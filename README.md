@@ -6,6 +6,7 @@ ONLY TESTED IN CSGO.
 - Removed all commands.
 - Added some natives and forwards.
 - Added attack target "ct" and "tr".
+- Changed monster dead event weapon from `tf2_weapon_` to `weapon_`.
 
 # Install
 - Put `monster.smx` to your server folder.
